@@ -1,0 +1,117 @@
+<!DOCTYPE html class="scroll-smooth">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./my-phot.jpg" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/268d8a2bee.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js" defer></script>
+    <title>Muhammad Sajid || Flutter Engineer</title>
+  </head>
+  <body class="font-poppins relative">
+    <div class="cursor-buddy absolute w-10 h-10 border-2 border-gray-400 rounded-full"></div>
+    <header class="shadow-md fixed top-0 left-0 right-0 bg-white bg-opacity-95">
+      <div class="sm:flex justify-between text-center container mx-auto p-1">
+        <div class="logo  flex items-center justify-between">
+          <img
+            src="./my-phot.jpg"
+            alt="my-photo"
+            class="rounded-full h-10 w-10 ring-2 ring-slate-200 hover:animate-spin"
+          />
+          <div class="menu-icon block sm:hidden active:bg-slate-200 rounded-sm px-2 cursor-pointer">
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+        </div>
+        <nav class="overflow-hidden transition-all h-[0rem] sm:h-auto">
+          <ul class="sm:flex gap-6 sm:py-0 py-5 text-left w-max mx-auto items-center">
+            <li class="hover:text-slate-400 mt-2">
+              <a href="#home"
+                ><i class="fas fa-home active:text-gray-700"></i> Home</a
+              >
+            </li class="hover:text-slate-400 mt-2">
+            <li class="hover:text-slate-400 mt-2">
+              <a href="#projects"><i class="fas fa-briefcase"></i> Projects</a>
+            </li>
+            <li class="hover:text-slate-400 mt-2">
+              <a href="#skills"><i class="fas fa-tools"></i> Skills</a>
+            </li>
+            <li class="hover:text-slate-400 mt-2 sm:bg-primaryCrl sm:text-white sm:hover:text-gray-200 sm:px-2 sm:rounded-sm sm:py-1">
+              <a href="#contact"
+                ><i class="fas fa-envelope-open-text"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="w-full">
+      <div class="max-w-[1200px] flex mx-auto justify-center p-2 items-center gap-8 sm:w-screen sm:h-screen">
+        <div class="shadow-md max-w-[350px] max-h-[50rem]  mx-auto self-start  sm:self-center -z-10 fixed sm:static ">
+          <img src="./my-phot.jpg" alt="my-photo" class="mx-auto my-photo animate-pulse  rounded-md">
+        </div>
+        <div class="mt-[20rem] sm:w-[30rem] md:w-[40rem] text-center bg-slate-200 sm:bg-white sm:text-left sm:mt-0 p-3">
+          <h1 class="text-[2rem] font-semibold">Muhammad Sajid</h1>
+          <h2 class="text-[1.8rem] text-primaryCrl"><i class="fas fa-mobile-alt"></i> Mobile App Developer</h2>
+          <p class="text-gray-800 py-4">Focused professional having excellent technical and communication skills, and offering 6 years of experience in Computer industry. Proficient at designing and formulating test automation frameworks, and implementation. Specialize in thinking outside the box to find unique solutions to difficult engineering problems.</p>
+          <button class="m-4 bg-primaryCrl py-2 px-3 rounded-md hover:scale-90 transition text-white">Download CV</button>
+        </div>
+      </div>
+
+      <div id="projects" class="max-w-[1200px] p-4  mx-auto">
+        <h1 class="text-[2rem] mt-8 text-center border-b-2 border-slate-200 w-max mx-auto p-1">Projects</h1>
+        <p class="py-4 text-center">These are some of my favorite projects that I have worked on.</p>
+        <div class="grid gap-4 grid-cols-2 sm:grid-cols-3 justify-center  ">
+          <img src="../imgs/img1.png" alt="" class="rounded-md shadow-md w-[200px] sm:w-[350px] cursor-pointer hover:animate-pulse hover:shadow-xl place-self-center">
+          <img src="../imgs/img2.png" alt="" class="rounded-md shadow-md w-[200px] sm:w-[350px] cursor-pointer hover:animate-pulse hover:shadow-xl place-self-center">
+          <img src="../imgs/img3.jpg" alt="" class="rounded-md shadow-md w-[200px] sm:w-[350px] cursor-pointer hover:animate-pulse hover:shadow-xl place-self-center">
+          <img src="../imgs/img4.jpg" alt="" class="rounded-md shadow-md w-[200px] sm:w-[350px] cursor-pointer hover:animate-pulse hover:shadow-xl place-self-center">
+          <img src="../imgs/img5.jpg" alt="" class="rounded-md shadow-md w-[200px] sm:w-[350px] cursor-pointer hover:animate-pulse hover:shadow-xl place-self-center">
+          <img src="../imgs/img6.jpg" alt="" class="rounded-md shadow-md w-[200px] sm:w-[350px] cursor-pointer hover:animate-pulse hover:shadow-xl place-self-center">
+        </div>
+      </div>
+
+      <div id="skills" class="max-w-[1200px] p-4  mx-auto">
+        <h1 class="text-[2rem] mt-8 text-center border-b-2 border-slate-200 w-max mx-auto p-1">My Skill And Expertise</h1>
+        <p class="py-4 text-center">Technologies that I am very comfortable with.</p>
+        <div class="grid gap-4 grid-cols-3 sm:grid-cols-5 justify-center  ">
+          <div class="text-[3rem] place-self-center">
+            <i class="fab fa-js-square  rounded-md shadow-md cursor-pointer hover:animate-pulse hover:shadow-xl "></i>
+          </div>
+          <div class="text-[3rem] place-self-center">
+            <i class="fab fa-java  rounded-md shadow-md cursor-pointer hover:animate-pulse hover:shadow-xl "></i>
+          </div>
+          <div class="text-[3rem] place-self-center">
+            <i class="fab fa-android  rounded-md shadow-md cursor-pointer hover:animate-pulse hover:shadow-xl "></i>
+          </div>
+          <div class="text-[3rem] place-self-center">
+            <i class="fab fa-app-store-ios  rounded-md shadow-md cursor-pointer hover:animate-pulse hover:shadow-xl "></i>
+          </div>
+          <div class="text-[3rem] place-self-center">
+            <i class="fab fa-github-square  rounded-md shadow-md cursor-pointer hover:animate-pulse hover:shadow-xl "></i>
+          </div>
+      </div>
+
+     <div id="contact" class="bg-slate-200 mt-10 w-full">
+       <h1 class="text-[2rem] mt-8 text-center border-b-2 border-primaryCrl w-max mx-auto p-1">Contact Me</h1>
+      <form action="#" class="max-w-[1200px] mx-auto  grid gap-4">
+        <input class="w-[300px] mx-auto p-2 mt-4 rounded-md" type="email" placeholder="Enter Email">
+        <textarea class="w-[300px] mx-auto p-2 mt-4 rounded-md" placeholder="Message Me" id="" cols="30" rows="10"></textarea>
+        <button class="py-1 px-2 rounded-sm bg-primaryCrl w-max mx-auto mb-8 text-white hover:scale-95">Send</button>
+      </form>
+     </div> 
+    </main>
+
+  </body>
+</html>

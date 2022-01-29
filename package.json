@@ -1,0 +1,19 @@
+{
+  "name": "FlutterEngineer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.18"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5"
+  }
+}
