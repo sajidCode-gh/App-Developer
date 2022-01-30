@@ -5,6 +5,21 @@
 nav {
   height: 0rem;
 }
+
 nav.active {
   height: 12rem;
+}
+
+header {
+  height: 3.3rem;
+  transition: all 200ms ease-in-out;
+}
+
+header.hide {
+  overflow: hidden;
+  height: 0rem;
+}
+
+header.adjust-height {
+  height: auto;
 }
