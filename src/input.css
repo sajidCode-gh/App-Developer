@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+nav {
+  height: 0rem;
+}
+nav.active {
+  height: 12rem;
+}
